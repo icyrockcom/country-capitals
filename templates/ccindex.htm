@@ -1,0 +1,33 @@
+<h1>Country/capital index</h1>
+Countries by first letter:
+<ul id="countriesByFirstLetter">
+  {#letters}
+  <li>
+    <a href="{baseURL}/countriesByFirstLetter?key=&quot;{letter}&quot;">{display}</a>
+  </li>
+  {/letters}
+</ul>
+
+Capitals by first letter:
+<ul id="capitalsByFirstLetter">
+  {#letters}
+  <li>
+    <a href="{baseURL}/capitalsByFirstLetter?key=&quot;{letter}&quot;">{display}</a>
+  </li>
+  {/letters}
+</ul>
+
+<h1>Results</h1>
+
+<table id="results">
+  <tr>
+    <th>Country</th>
+    <th>Capital</th>
+  </tr>
+  {#rows}
+  <tr>
+    <td>{country}</td>
+    <td>{capital}</td>
+  </tr>
+  {/rows}
+</table>

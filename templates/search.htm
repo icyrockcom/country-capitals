@@ -1,0 +1,15 @@
+<h1>Country/capital search</h1>
+<div id="filters">
+  Country: <input id="countryFilter" type="text" />
+  Capital: <input id="capitalFilter" type="text" />
+</div>
+
+{?rows}
+  <ul id="results">
+    {#rows}
+      <li>{color}</li>
+    {/rows}
+  </ul>
+{:else}
+{/rows}
+

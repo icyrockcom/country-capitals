@@ -1,0 +1,31 @@
+#countriesByFirstLetter li,
+#capitalsByFirstLetter li {
+  display: inline;
+}
+
+#countriesByFirstLetter li a,
+#capitalsByFirstLetter li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding: .2em;
+  background: #ffee50;
+  border: 1px solid #009999;
+  color: black;
+}
+
+#results {
+  border-collapse: collapse;
+}
+#results,
+#results td,
+#results th {
+  background: #ffcc30;
+  border: 1px solid #009999;
+  padding: 0em 1em 0em .3em;
+  width: 60em;
+}
+#results td {
+  background: #ffee50;
+}
